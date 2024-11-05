@@ -437,6 +437,9 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
+  .middle_container_firstbox_about {
+    padding-top: 25px;
+  }
   .middle_container_secondbox {
     flex-wrap: wrap;
     justify-content: center;
@@ -508,5 +511,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 310px;
+    width: 100%;
   }
 }
