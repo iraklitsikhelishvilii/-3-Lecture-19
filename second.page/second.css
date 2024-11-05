@@ -77,6 +77,12 @@ button {
   padding-left: 40px;
   padding-right: 40px;
 }
+.middle_box_contant_bigbox {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  justify-content: space-between;
+}
 h1 {
   color: var(--White, #fff);
   font-family: "Big Shoulders Display";
@@ -147,12 +153,6 @@ footer {
   font-weight: 900;
   line-height: 36px;
   color: #151515;
-}
-button:hover + .point_box {
-  background-color: #151515;
-}
-button:hover {
-  background: var(--Gold, #d5966c);
 }
 .br_medium {
   display: none;

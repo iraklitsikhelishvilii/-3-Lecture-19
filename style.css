@@ -54,7 +54,8 @@ section {
   top: 190px;
 }
 .top_container_h1 {
-  color: white;
+  mix-blend-mode: difference;
+  color: #fff;
   font-size: 96px;
   font-weight: 900;
   line-height: 88px;
@@ -246,12 +247,7 @@ footer {
 .middle_container_secondbox_column_img_mobile {
   display: none;
 }
-button:hover + .point_box {
-  background-color: #151515;
-}
-button:hover {
-  background: var(--Gold, #d5966c);
-}
+
 @media (max-width: 1300px) {
   .top_container_content {
     max-width: 940px;
