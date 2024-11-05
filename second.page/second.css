@@ -215,6 +215,11 @@ footer {
     font-size: 50px;
     line-height: 45px;
   }
+  .middle_box_contant_bigbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .footer_about {
     gap: 38px;
     flex-direction: column;
