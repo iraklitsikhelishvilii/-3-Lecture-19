@@ -21,6 +21,12 @@ section {
   justify-content: center;
   align-items: center;
 }
+.top_container_box {
+  display: flex;
+  position: relative;
+  max-width: 1110px;
+  width: 100%;
+}
 .top_img {
   max-width: 540px;
   width: 100%;
@@ -246,8 +252,56 @@ button:hover + .point_box {
 button:hover {
   background: var(--Gold, #d5966c);
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
+  .top_container_content {
+    max-width: 940px;
+    width: 100%;
+    flex-direction: column;
+    left: 515px;
+    top: 150px;
+  }
+  .top_container_blackbox {
+    display: none;
+  }
+  .top_container_h1 {
+    color: #151515;
+  }
+  .middle_container_firstbox {
+    max-width: 940px;
+    width: 100%;
+  }
+  .middle_container_secondbox {
+    max-width: 940px;
+    width: 100%;
+  }
+  .middle_container_secondbox_firstimg {
+    width: 550px;
+  }
+  .middle_container_secondbox_column_img {
+    max-width: 365px;
+  }
+  .middle_container_secondbox_column_blackbox_p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .middle_container_secondbox_column_blackbox {
+    height: 380px;
+  }
+  .middle_container_secondbox_column_blackbox_h {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .middle_container_secondbox_column_blackbox {
+    height: 340px;
+  }
+  .footer_content {
+    padding: 10px;
+  }
+  .middle_container_firstbox_about_p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 990px) {
   .top_container_blackbox {
     display: none;
   }
@@ -317,6 +371,7 @@ button:hover {
   }
   .middle_container_secondbox_firstimg_medium {
     display: block;
+    max-width: 380px;
   }
   .middle_container_secondbox_firstimg {
     display: none;
@@ -331,6 +386,10 @@ button:hover {
     max-width: 690px;
     width: 100%;
   }
+  .footer_big_cont {
+    justify-content: center;
+    align-items: center;
+  }
   .footer_about {
     max-width: 455px;
     width: 100%;
@@ -343,6 +402,10 @@ button:hover {
   .footer_about_p {
     font-size: 16px;
     line-height: 26px;
+  }
+  footer {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 720px) {
