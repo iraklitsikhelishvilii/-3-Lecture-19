@@ -55,7 +55,7 @@ section {
 }
 .top_container_h1 {
   mix-blend-mode: difference;
-  color: #fff;
+  color: white;
   font-size: 96px;
   font-weight: 900;
   line-height: 88px;
@@ -261,7 +261,9 @@ footer {
   }
   .top_container_h1 {
     color: #151515;
+    mix-blend-mode: normal;
   }
+
   .middle_container_firstbox {
     max-width: 940px;
     width: 100%;
