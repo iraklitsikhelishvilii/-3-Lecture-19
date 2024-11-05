@@ -305,6 +305,7 @@ footer {
   }
   .top_container_content {
     flex-direction: column;
+    width: auto;
     left: 385px;
     top: 145px;
     gap: 48px;
