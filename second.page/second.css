@@ -207,6 +207,8 @@ footer {
   }
   .middle_box_contant {
     justify-content: center;
+    align-items: center;
+    max-width: 400px;
   }
   .middle_box_contant_about {
     padding-top: 48px;
@@ -218,7 +220,6 @@ footer {
   .middle_box_contant_bigbox {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .footer_about {
     gap: 38px;
@@ -227,7 +228,7 @@ footer {
   }
   .footer_content {
     flex-direction: column;
-    max-width: 586px;
+    max-width: 400px;
     justify-content: center;
     align-items: center;
   }
